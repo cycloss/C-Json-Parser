@@ -1,6 +1,6 @@
 
 
-test: jsonParser.c
-	gcc -lGenericStructures jsonParser.c -o jsonParser
-	./jsonParser
+test: jsonParser.c jsonParserTest.c
+	gcc -lGenericStructures jsonParser.c jsonParserTest.c -o jsonParserTest
+	./jsonParserTest
 	
