@@ -2,6 +2,8 @@
 #include "jsonParser.h"
 #include <stdio.h>
 
+//TODO write a readme
+
 void printStatus(void* jsonStructure) {
     hashMap* meta = getValueForKey(jsonStructure, "meta");
     int* status = getValueForKey(meta, "status");
@@ -16,7 +18,8 @@ void printSlug(void* jsonStructure) {
 }
 
 int main() {
-    void* json = parseJson("testjson.json");
-    printStatus(json);
-    printSlug(json);
+    jsonBundle* bundle = parseJson("testJsonFiles/testjson.json");
+    printStatus(bundle->structure);
+    printSlug(bundle->structure);
+    freeJsonBundle(bundle);
 }

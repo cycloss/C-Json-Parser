@@ -1,0 +1,1261 @@
+{
+    "meta": {
+        "status": 200
+    },
+    "data": [
+        {
+            "slug": "竜",
+            "is_common": true,
+            "tags": [
+                "wanikani44"
+            ],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜",
+                    "reading": "りゅう"
+                },
+                {
+                    "word": "竜",
+                    "reading": "たつ"
+                },
+                {
+                    "word": "竜",
+                    "reading": "りょう"
+                },
+                {
+                    "word": "龍",
+                    "reading": "りゅう"
+                },
+                {
+                    "word": "龍",
+                    "reading": "たつ"
+                },
+                {
+                    "word": "龍",
+                    "reading": "りょう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon (esp. a Chinese dragon)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [
+                        "ドラゴン"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "naga",
+                        "semi-divine human-cobra chimera in Hindu and Buddhist mythology"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "promoted rook"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Shogi term",
+                        "Abbreviation"
+                    ],
+                    "restrictions": [
+                        "りゅう",
+                        "りょう"
+                    ],
+                    "see_also": [
+                        "竜王 りゅうおう"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Chinese dragon"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Chinese dragon” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Chinese_dragon?oldid=495084673"
+                        },
+                        {
+                            "text": "Read “竜” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/竜?oldid=42637353"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/Chinese_dragon"
+            }
+        },
+        {
+            "slug": "ドラゴン",
+            "is_common": true,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "reading": "ドラゴン"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon (as depicted in Western myths)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [
+                        "竜"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Dragon"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Dragon” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Dragon?oldid=495044317"
+                        },
+                        {
+                            "text": "Read “ドラゴン” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/ドラゴン?oldid=42341707"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/Dragon"
+            }
+        },
+        {
+            "slug": "辰",
+            "is_common": true,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "辰",
+                    "reading": "たつ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "the Dragon (fifth sign of the Chinese zodiac)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "hour of the Dragon (around 8am, 7-9am, or 8-10am)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Obsolete term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "辰の刻"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "east-southeast"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Obsolete term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "third month of the lunar calendar"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Obsolete term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Dragon (zodiac)"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Dragon (zodiac)” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Dragon_(zodiac)?oldid=494270911"
+                        },
+                        {
+                            "text": "Read “辰” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/辰?oldid=42498865"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/Dragon_(zodiac)"
+            }
+        },
+        {
+            "slug": "竜座",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜座",
+                    "reading": "りゅうざ"
+                },
+                {
+                    "word": "りゅう座",
+                    "reading": "りゅうざ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "Draco (constellation)",
+                        "the Dragon"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Astronomy, etc. term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "竜神",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜神",
+                    "reading": "りゅうじん"
+                },
+                {
+                    "word": "龍神",
+                    "reading": "りゅうじん"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon god",
+                        "dragon king"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "naga"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Buddhist term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "竜王",
+            "is_common": true,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜王",
+                    "reading": "りゅうおう"
+                },
+                {
+                    "word": "龍王",
+                    "reading": "りゅうおう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "Dragon King"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "promoted rook"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Shogi term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "飛車 ひしゃ"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "画竜",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "画竜",
+                    "reading": "がりょう"
+                },
+                {
+                    "word": "画竜",
+                    "reading": "がりゅう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "drawn dragon",
+                        "painted dragon"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "蟠龍",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "蟠龍",
+                    "reading": "はんりょう"
+                },
+                {
+                    "word": "蟠竜",
+                    "reading": "はんりょう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "coiled dragon",
+                        "dragon coiled on the earth, which has not yet ascended to the sky"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "竜宮",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜宮",
+                    "reading": "りゅうぐう"
+                },
+                {
+                    "word": "龍宮",
+                    "reading": "りゅうぐう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "Palace of the Dragon King",
+                        "palace from the story of Urashima Tarō (said to be located at the bottom of the sea)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Ryuuguu"
+                    ],
+                    "parts_of_speech": [
+                        "Place"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": true,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "竜血樹",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜血樹",
+                    "reading": "りゅうけつじゅ"
+                },
+                {
+                    "reading": "リュウケツジュ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon tree (Dracaena draco)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Usually written using kana alone"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "ドラセナ"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Dracaena draco"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Dracaena draco” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Dracaena_draco?oldid=489179183"
+                        },
+                        {
+                            "text": "Read “リュウケツジュ” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/リュウケツジュ?oldid=40737034"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/Dracaena_draco"
+            }
+        },
+        {
+            "slug": "応竜",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "応竜",
+                    "reading": "おうりゅう"
+                },
+                {
+                    "word": "応龍",
+                    "reading": "おうりゅう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "Yinglong",
+                        "dragon and rain deity in Chinese mythology"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Yinglong"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Yinglong” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Yinglong?oldid=486447123"
+                        },
+                        {
+                            "text": "Read “応竜” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/応竜?oldid=40758697"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/Yinglong"
+            }
+        },
+        {
+            "slug": "竜笛",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜笛",
+                    "reading": "りゅうてき"
+                },
+                {
+                    "word": "竜笛",
+                    "reading": "りょうてき"
+                },
+                {
+                    "word": "龍笛",
+                    "reading": "りゅうてき"
+                },
+                {
+                    "word": "龍笛",
+                    "reading": "りょうてき"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon flute",
+                        "medium-pitched bark-covered bamboo transverse flute with seven holes, used in gagaku"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Ryūteki"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Ryūteki” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Ryūteki?oldid=479256331"
+                        },
+                        {
+                            "text": "Read “龍笛” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/龍笛?oldid=36202316"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/Ryūteki"
+            }
+        },
+        {
+            "slug": "龍舞",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "龍舞",
+                    "reading": "りゅうまい"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon dance (in Chinese culture)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Ryuumai"
+                    ],
+                    "parts_of_speech": [
+                        "Place"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": true,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "白",
+            "is_common": true,
+            "tags": [
+                "wanikani2"
+            ],
+            "jlpt": [
+                "jlpt-n5"
+            ],
+            "japanese": [
+                {
+                    "word": "白",
+                    "reading": "しろ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "white"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [
+                        "黒"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "innocence",
+                        "innocent person"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "blank space"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "white go stone"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "white dragon tile"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Mahjong term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "白 はく"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "skewered grilled pig intestine"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Food term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "White"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “White” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/White?oldid=495398278"
+                        },
+                        {
+                            "text": "Read “白” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/白?oldid=42511259"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/White"
+            }
+        },
+        {
+            "slug": "雨竜",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "雨竜",
+                    "reading": "あまりょう"
+                },
+                {
+                    "word": "雨竜",
+                    "reading": "あまりゅう"
+                },
+                {
+                    "word": "螭竜",
+                    "reading": "あまりょう"
+                },
+                {
+                    "word": "螭竜",
+                    "reading": "あまりゅう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "rain dragon",
+                        "mythical beast with yellowish green skin and red tail"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Uryuu"
+                    ],
+                    "parts_of_speech": [
+                        "Place"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": true,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "亢竜",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "亢竜",
+                    "reading": "こうりょう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon which has already ascended to the heavens"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "竜舟",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜舟",
+                    "reading": "りゅうしゅう"
+                },
+                {
+                    "word": "龍舟",
+                    "reading": "りゅうしゅう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon boat (long 22-person canoe used for racing)"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "飛竜",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "飛竜",
+                    "reading": "ペーロン"
+                },
+                {
+                    "word": "白竜",
+                    "reading": "ペーロン"
+                },
+                {
+                    "word": "剗竜",
+                    "reading": "ペーロン"
+                },
+                {
+                    "word": "划竜",
+                    "reading": "ペーロン"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon boat (long 22-person canoe used for racing)",
+                        "races with such boats"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [
+                        {
+                            "language": "Chinese",
+                            "word": ""
+                        }
+                    ],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "倶利迦羅竜王",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "倶利迦羅竜王",
+                    "reading": "くりからりゅうおう"
+                },
+                {
+                    "word": "俱利迦羅竜王",
+                    "reading": "くりからりゅうおう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "Dragon King Kulika",
+                        "manifestation of Acala in the form of a flame-wreathed dragon wrapped around and swallowing the tip of an upright sword"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Buddhist term"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "不動明王"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "竜虎",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "竜虎",
+                    "reading": "りゅうこ"
+                },
+                {
+                    "word": "竜虎",
+                    "reading": "りょうこ"
+                },
+                {
+                    "word": "龍虎",
+                    "reading": "りゅうこ"
+                },
+                {
+                    "word": "龍虎",
+                    "reading": "りょうこ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "dragon and tiger",
+                        "two mighty rivals"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        }
+    ]
+}

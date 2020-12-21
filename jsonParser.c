@@ -8,6 +8,7 @@
 //TODO add support for floats, remove number and add integer and floatingPoint, will have to change number parsing
 //currently only supports integers
 //TODO add a table of malloc'd pointers to enable the structure to be freed
+//TODO track line number in parsing, possibly modify the token struct to include line num
 
 typedef enum {
     openObject,
@@ -46,12 +47,27 @@ typedef struct {
     int currentIndex;
 } parseInfo;
 
+typedef enum {
+    simple,
+    arrLst,
+    hshMp
+} pointerType;
+
+typedef struct {
+    void* mallocdPointer;
+    pointerType type;
+} memoryBundle;
+
+//an array list of memory bundles
+arrayList* memList;
+
 void processFile(FILE* in, arrayList* al);
-char* getString(FILE* in);
+char* generateStringLiteral(FILE* in);
 void generateLiteral(FILE* in, token* tp);
 void generateNumberToken(FILE* in, token* tp);
 void generateBoolToken(FILE* in, token* tp);
 void generateNullToken(FILE* in, token* tp);
+
 hashMap* generateObject(parseInfo* pi);
 void optionallyConsumeComma(parseInfo* pi);
 void* generateBool(parseInfo* pi);
@@ -62,6 +78,10 @@ void* processArrayValue(parseInfo* pi);
 void* processObjValue(parseInfo* pi);
 void consumeColon(parseInfo* pi);
 bool match(tokenType type, int args, ...);
+
+void printToken(void* tkn);
+
+void addMemoryBundleToList(void* mallocdPointer, pointerType type);
 
 void* fatalError(char* formatString, ...) {
     printf("Fatal error: ");
@@ -79,11 +99,12 @@ arrayList* lexJson(char* jsonFile) {
     FILE* in = fopen(jsonFile, "r");
 
     if (!in) {
-        fatalError("Could not open specified json file");
+        fatalError("Could not open the json file at: %s", jsonFile);
     }
     //TODO consider moving this to global scope so the list of processed tokens can be printed in the event of an error
     arrayList* al = createArrayList();
     processFile(in, al);
+    fclose(in);
     return al;
 }
 
@@ -118,18 +139,19 @@ void processFile(FILE* in, arrayList* al) {
                 break;
             case '"':
                 t->type = string;
-                char* str = getString(in);
+                char* str = generateStringLiteral(in);
                 t->rawText = str;
                 break;
             default:
                 fseek(in, -1, SEEK_CUR);
                 generateLiteral(in, t);
         }
+        printToken(t);
         appendToAl(al, t);
     }
 }
 
-char* getString(FILE* in) {
+char* generateStringLiteral(FILE* in) {
     stringBuilder* sb = createStringBuilder();
     for (char c = fgetc(in); c != '"'; c = fgetc(in)) {
         if (c == EOF) {
@@ -139,6 +161,7 @@ char* getString(FILE* in) {
         }
     }
     char* str = sb->string;
+    addMemoryBundleToList(str, simple);
     freeBuilder(sb, false);
     return str;
 }
@@ -167,6 +190,7 @@ void generateNumberToken(FILE* in, token* tp) {
             break;
         }
     }
+    addMemoryBundleToList(sb->string, simple);
     tp->rawText = sb->string;
     tp->type = number;
     freeBuilder(sb, false);
@@ -191,6 +215,7 @@ void generateBoolToken(FILE* in, token* tp) {
             fatalError("Malformed boolean value");
         }
     }
+    addMemoryBundleToList(sb->string, simple);
     tp->rawText = sb->string;
     tp->type = boolean;
     freeBuilder(sb, false);
@@ -222,6 +247,7 @@ void* generateJsonStructure(arrayList* tokens) {
 
 hashMap* generateObject(parseInfo* pi) {
     hashMap* object = createHashMap(strHash, strComp);
+    addMemoryBundleToList(object, hshMp);
     token* t = getItemAt(pi->tokens, pi->currentIndex++);
     while (match(t->type, 1, string)) {
         void* val = processObjValue(pi);
@@ -279,6 +305,7 @@ void consumeColon(parseInfo* pi) {
 void* generateBool(parseInfo* pi) {
     token* boolToken = getItemAt(pi->tokens, pi->currentIndex++);
     bool* boolVal = malloc(sizeof(bool));
+    addMemoryBundleToList(boolVal, simple);
     if (strcmp("true", boolToken->rawText)) {
         *boolVal = true;
     } else if (strcmp("false", boolToken->rawText)) {
@@ -299,12 +326,14 @@ void* generateNumber(parseInfo* pi) {
     int parsednum = atoi(numToken->rawText);
     //TODO add error handling to disern when atoi failed and whether it was just a zero
     int* nump = malloc(sizeof(int));
+    addMemoryBundleToList(nump, simple);
     *nump = parsednum;
     return nump;
 }
 
 arrayList* generateArray(parseInfo* pi) {
     arrayList* array = createArrayList();
+    addMemoryBundleToList(array, arrLst);
     //don't want to increment here because need to see what it was in the prcessArrayValue method
     token* t = getItemAt(pi->tokens, pi->currentIndex);
     while (match(t->type, 5, string, number, boolean, null, openObject)) {
@@ -362,8 +391,40 @@ void printTokenList(arrayList* tokenList) {
     iterateListItems(tokenList, printToken);
 }
 
-void* parseJson(char* fileName) {
+jsonBundle* parseJson(char* fileName) {
+    memList = createArrayList();
     arrayList* tokenList = lexJson(fileName);
+    if (!memList) {
+        fatalError("Memory list not allocated");
+    }
     printTokenList(tokenList);
-    return generateJsonStructure(tokenList);
+    void* structure = generateJsonStructure(tokenList);
+    freeAl(tokenList, true);
+    jsonBundle* jb = malloc(sizeof(jsonBundle));
+    *jb = (jsonBundle) { structure, memList };
+    memList = NULL;
+    return jb;
+}
+
+void addMemoryBundleToList(void* mallocdPointer, pointerType type) {
+    memoryBundle* mb = malloc(sizeof(memoryBundle));
+    *mb = (memoryBundle) { mallocdPointer, type };
+    appendToAl(memList, mb);
+}
+
+void freeJsonBundle(jsonBundle* bundlep) {
+    for (int i = 0; i < getSize(bundlep->_allocatedMemory); i++) {
+        memoryBundle* mb = getItemAt(bundlep->_allocatedMemory, i);
+        pointerType type = mb->type;
+        if (type == simple) {
+            free(mb->mallocdPointer);
+        } else if (type == arrLst) {
+            freeAl(mb->mallocdPointer, false);
+        } else {
+            freeMap(mb->mallocdPointer, false);
+        }
+        free(mb);
+    }
+    freeAl(bundlep->_allocatedMemory, false);
+    free(bundlep);
 }
