@@ -1,0 +1,11 @@
+{
+    "foo": true,
+    "bar": 123,
+    "baz": [
+        "qux",
+        "quux"
+    ],
+    "quuz": {
+        "corge": null
+    }
+}

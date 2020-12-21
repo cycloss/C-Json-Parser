@@ -146,7 +146,7 @@ void processFile(FILE* in, arrayList* al) {
                 fseek(in, -1, SEEK_CUR);
                 generateLiteral(in, t);
         }
-        printToken(t);
+        // printToken(t);
         appendToAl(al, t);
     }
 }
@@ -306,9 +306,9 @@ void* generateBool(parseInfo* pi) {
     token* boolToken = getItemAt(pi->tokens, pi->currentIndex++);
     bool* boolVal = malloc(sizeof(bool));
     addMemoryBundleToList(boolVal, simple);
-    if (strcmp("true", boolToken->rawText)) {
+    if (strcmp("true", boolToken->rawText) == 0) {
         *boolVal = true;
-    } else if (strcmp("false", boolToken->rawText)) {
+    } else if (strcmp("false", boolToken->rawText) == 0) {
         *boolVal = false;
     } else {
         fatalError("Expected bool text but raw value was %s", boolToken->rawText);
@@ -397,7 +397,7 @@ jsonBundle* parseJson(char* fileName) {
     if (!memList) {
         fatalError("Memory list not allocated");
     }
-    printTokenList(tokenList);
+    // printTokenList(tokenList);
     void* structure = generateJsonStructure(tokenList);
     freeAl(tokenList, true);
     jsonBundle* jb = malloc(sizeof(jsonBundle));

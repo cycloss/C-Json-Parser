@@ -18,8 +18,20 @@ void printSlug(void* jsonStructure) {
 }
 
 int main() {
-    jsonBundle* bundle = parseJson("testJsonFiles/testjson.json");
-    printStatus(bundle->structure);
-    printSlug(bundle->structure);
+
+    jsonBundle* bundle = parseJson("testJsonFiles/simple.json");
+    bool* fooVal = getValueForKey(bundle->structure, "foo");
+    puts(*fooVal == 0 ? "false" : "true");
+    arrayList* bazVal = getValueForKey(bundle->structure, "baz");
+    char* secondItem = getItemAt(bazVal, 1);
+    puts(secondItem);
+    hashMap* quuzVal = getValueForKey(bundle->structure, "quuz");
+    void* corgeVal = getValueForKey(quuzVal, "corge");
+    puts(corgeVal ? "Corge val was not null" : "Corge val was null");
     freeJsonBundle(bundle);
+
+    jsonBundle* bundle2 = parseJson("testJsonFiles/testjson.json");
+    printStatus(bundle2->structure);
+    printSlug(bundle2->structure);
+    freeJsonBundle(bundle2);
 }
